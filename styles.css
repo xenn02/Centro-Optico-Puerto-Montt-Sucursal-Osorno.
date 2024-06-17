@@ -1,0 +1,67 @@
+body {
+    background-color: #f09e1a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%2357bdcb' fill-opacity='0.86'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: rgb(82, 79, 79);
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    width: 200px;
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+.button img.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.whatsapp {
+    background-color: #25d366;
+    font-weight: bold;
+}
+
+.instagram {
+    background-color: #e1306c;
+    font-weight: bold;
+}
+
+.facebook {
+    background-color: #3b5998;
+    font-weight: bold;
+}
